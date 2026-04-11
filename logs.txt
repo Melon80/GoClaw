@@ -1,0 +1,68 @@
+
+[1;38;2;62;93;185m██████╗ ██╗ ██████╗ ██████╗ [1;38;2;213;70;70m ██████╗██╗      █████╗ ██╗    ██╗
+[1;38;2;62;93;185m██╔══██╗██║██╔════╝██╔═══██╗[1;38;2;213;70;70m██╔════╝██║     ██╔══██╗██║    ██║
+[1;38;2;62;93;185m██████╔╝██║██║     ██║   ██║[1;38;2;213;70;70m██║     ██║     ███████║██║ █╗ ██║
+[1;38;2;62;93;185m██╔═══╝ ██║██║     ██║   ██║[1;38;2;213;70;70m██║     ██║     ██╔══██║██║███╗██║
+[1;38;2;62;93;185m██║     ██║╚██████╗╚██████╔╝[1;38;2;213;70;70m╚██████╗███████╗██║  ██║╚███╔███╔╝
+[1;38;2;62;93;185m╚═╝     ╚═╝ ╚═════╝ ╚═════╝ [1;38;2;213;70;70m ╚═════╝╚══════╝╚═╝  ╚═╝ ╚══╝╚══╝
+ [0m
+20:40:47 DBG config GoClaw\pkg\config\config.go:973 > loading config from D:\opencode\GoClaw\config.json
+20:40:47 INF gateway GoClaw\pkg\gateway\gateway.go:149 > Log level set to "debug"
+20:40:47 INF pid GoClaw\pkg\pid\pidfile.go:57 > found pid file (PID: 20104, version: dev)
+20:40:47 WRN pid GoClaw\pkg\pid\pidfile.go:61 > not running (PID: 20104) so will remove the pid file: C:\Users\86159\.picoclaw\.picoclaw.pid
+20:40:47 DBG pid GoClaw\pkg\pid\pidfile.go:97 > wrote pid file: C:\Users\86159\.picoclaw\.picoclaw.pid success
+20:40:47 DBG tools GoClaw\pkg\tools\registry.go:56 > Registered core tool name=read_file
+20:40:47 DBG tools GoClaw\pkg\tools\registry.go:56 > Registered core tool name=write_file
+20:40:47 DBG tools GoClaw\pkg\tools\registry.go:56 > Registered core tool name=list_dir
+20:40:47 DBG tools GoClaw\pkg\tools\registry.go:56 > Registered core tool name=exec
+20:40:47 DBG tools GoClaw\pkg\tools\registry.go:56 > Registered core tool name=edit_file
+20:40:47 DBG tools GoClaw\pkg\tools\registry.go:56 > Registered core tool name=append_file
+20:40:47 INF agent GoClaw\pkg\agent\registry.go:38 > Created implicit main agent (no agents.list configured)
+20:40:47 DBG tools GoClaw\pkg\tools\registry.go:56 > Registered core tool name=web_search
+20:40:47 DBG tools GoClaw\pkg\tools\registry.go:56 > Registered core tool name=web_fetch
+20:40:47 DBG tools GoClaw\pkg\tools\registry.go:56 > Registered core tool name=message
+20:40:47 DBG tools GoClaw\pkg\tools\registry.go:56 > Registered core tool name=reaction
+20:40:47 DBG tools GoClaw\pkg\tools\registry.go:56 > Registered core tool name=send_file
+20:40:47 DBG tools GoClaw\pkg\tools\registry.go:56 > Registered core tool name=load_image
+20:40:47 DBG tools GoClaw\pkg\tools\registry.go:56 > Registered core tool name=find_skills
+20:40:47 DBG tools GoClaw\pkg\tools\registry.go:56 > Registered core tool name=install_skill
+20:40:47 DBG tools GoClaw\pkg\tools\registry.go:56 > Registered core tool name=spawn
+20:40:47 DBG tools GoClaw\pkg\tools\registry.go:56 > Registered core tool name=subagent
+
+📦 Agent Status:
+  • Tools: 16 loaded
+  • Skills: 0/0 available
+20:40:47 INF agent GoClaw\pkg\gateway\gateway.go:179 > Agent initialized skills_available=0 skills_total=0 tools_count=16
+20:40:47 DBG tools GoClaw\pkg\tools\registry.go:56 > Registered core tool name=cron
+✓ Cron service started
+20:40:47 INF heartbeat GoClaw\pkg\heartbeat\service.go:100 > Heartbeat service started interval_minutes=30
+✓ Heartbeat service started
+20:40:47 INF media GoClaw\pkg\media\store.go:322 > cleanup enabled interval=5m0s max_age=30m0s
+20:40:47 INF channels GoClaw\pkg\channels\manager.go:355 > Initializing channel manager
+20:40:47 DBG channels GoClaw\pkg\channels\manager.go:323 > Attempting to initialize channel channel=Pet
+20:40:47 INF pet GoClaw\pkg\channels\pet\channel.go:101 > pet: created PetChannel with config: {true 0.0.0.0 8080 [*] [] }
+20:40:47 INF channels GoClaw\pkg\channels\manager.go:348 > Channel enabled successfully channel=Pet
+20:40:47 INF channels GoClaw\pkg\channels\manager.go:437 > Channel initialization completed enabled_channels=1
+✓ Channels enabled: [pet]
+20:40:47 INF channels GoClaw\pkg\channels\manager.go:521 > Starting all channels
+20:40:47 INF channels GoClaw\pkg\channels\manager.go:529 > Starting channel channel=pet
+20:40:47 INF pet GoClaw\pkg\channels\pet\channel.go:141 > Pet channel started
+20:40:47 INF pet GoClaw\pkg\channels\pet\channel.go:133 > pet: starting WebSocket server at 0.0.0.0:8080
+20:40:47 INF channels GoClaw\pkg\channels\manager.go:599 > Channel startup completed failed=0 started=1 total=1
+20:40:47 INF channels GoClaw\pkg\channels\manager.go:588 > Shared HTTP server listening addr=127.0.0.1:18790
+20:40:47 INF channels GoClaw\pkg\channels\manager.go:822 > Outbound dispatcher started
+20:40:47 INF channels GoClaw\pkg\channels\manager.go:822 > Outbound media dispatcher started
+20:40:47 INF voice GoClaw\pkg\gateway\gateway.go:92 > Channel voice capabilities asr=false channel=pet tts=false
+✓ Health endpoints available at http://127.0.0.1:18790/health, /ready and /reload (POST)
+20:40:47 INF devices GoClaw\pkg\devices\service.go:58 > Device event service disabled or no sources
+20:40:47 INF pet GoClaw\pkg\gateway\gateway.go:198 > Pet character hook registered
+✓ Gateway started on 127.0.0.1:18790
+Press Ctrl+C to stop
+20:40:47 INF pet GoClaw\pkg\channels\pet\channel.go:280 > pet: client connected, conn_id=1775824847667940200, session=go-claw
+20:40:48 DBG heartbeat GoClaw\pkg\heartbeat\service.go:163 > Executing heartbeat
+20:40:48 INF heartbeat GoClaw\pkg\heartbeat\service.go:167 > No heartbeat prompt (HEARTBEAT.md empty or missing)
+20:40:50 INF pet GoClaw\pkg\channels\pet\channel.go:280 > pet: client connected, conn_id=1775824850822434400, session=go-claw
+20:40:54 INF pet GoClaw\pkg\channels\pet\channel.go:293 > pet: client disconnected, conn_id=1775824847667940200
+20:41:58 INF pet GoClaw\pkg\channels\pet\channel.go:293 > pet: client disconnected, conn_id=1775824850822434400
+20:42:15 INF pet GoClaw\pkg\channels\pet\channel.go:280 > pet: client connected, conn_id=1775824935591711400, session=go-claw
+20:47:00 INF pet GoClaw\pkg\channels\pet\channel.go:293 > pet: client disconnected, conn_id=1775824935591711400

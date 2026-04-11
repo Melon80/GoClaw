@@ -1,0 +1,60 @@
+﻿
+[1;38;2;62;93;185m鈻堚枅鈻堚枅鈻堚枅鈺?鈻堚枅鈺?鈻堚枅鈻堚枅鈻堚枅鈺?鈻堚枅鈻堚枅鈻堚枅鈺?[1;38;2;213;70;70m 鈻堚枅鈻堚枅鈻堚枅鈺椻枅鈻堚晽      鈻堚枅鈻堚枅鈻堚晽 鈻堚枅鈺?   鈻堚枅鈺?[1;38;2;62;93;185m鈻堚枅鈺斺晲鈺愨枅鈻堚晽鈻堚枅鈺戔枅鈻堚晹鈺愨晲鈺愨晲鈺濃枅鈻堚晹鈺愨晲鈺愨枅鈻堚晽[1;38;2;213;70;70m鈻堚枅鈺斺晲鈺愨晲鈺愨暆鈻堚枅鈺?    鈻堚枅鈺斺晲鈺愨枅鈻堚晽鈻堚枅鈺?   鈻堚枅鈺?[1;38;2;62;93;185m鈻堚枅鈻堚枅鈻堚枅鈺斺暆鈻堚枅鈺戔枅鈻堚晳     鈻堚枅鈺?  鈻堚枅鈺?[1;38;2;213;70;70m鈻堚枅鈺?    鈻堚枅鈺?    鈻堚枅鈻堚枅鈻堚枅鈻堚晳鈻堚枅鈺?鈻堚晽 鈻堚枅鈺?[1;38;2;62;93;185m鈻堚枅鈺斺晲鈺愨晲鈺?鈻堚枅鈺戔枅鈻堚晳     鈻堚枅鈺?  鈻堚枅鈺?[1;38;2;213;70;70m鈻堚枅鈺?    鈻堚枅鈺?    鈻堚枅鈺斺晲鈺愨枅鈻堚晳鈻堚枅鈺戔枅鈻堚枅鈺椻枅鈻堚晳
+[1;38;2;62;93;185m鈻堚枅鈺?    鈻堚枅鈺戔暁鈻堚枅鈻堚枅鈻堚枅鈺椻暁鈻堚枅鈻堚枅鈻堚枅鈺斺暆[1;38;2;213;70;70m鈺氣枅鈻堚枅鈻堚枅鈻堚晽鈻堚枅鈻堚枅鈻堚枅鈻堚晽鈻堚枅鈺? 鈻堚枅鈺戔暁鈻堚枅鈻堚晹鈻堚枅鈻堚晹鈺?[1;38;2;62;93;185m鈺氣晲鈺?    鈺氣晲鈺?鈺氣晲鈺愨晲鈺愨晲鈺?鈺氣晲鈺愨晲鈺愨晲鈺?[1;38;2;213;70;70m 鈺氣晲鈺愨晲鈺愨晲鈺濃暁鈺愨晲鈺愨晲鈺愨晲鈺濃暁鈺愨暆  鈺氣晲鈺?鈺氣晲鈺愨暆鈺氣晲鈺愨暆
+ [0m
+13:09:11 DBG config pkg\config\config.go:973 > loading config from C:\Users\86159\.picoclaw\config.json
+馃攳 Debug mode enabled
+13:09:11 INF pid pkg\pid\pidfile.go:57 > found pid file (PID: 6212, version: dev)
+13:09:11 WRN pid pkg\pid\pidfile.go:61 > not running (PID: 6212) so will remove the pid file: C:\Users\86159\.picoclaw\.picoclaw.pid
+13:09:11 DBG pid pkg\pid\pidfile.go:97 > wrote pid file: C:\Users\86159\.picoclaw\.picoclaw.pid success
+13:09:11 DBG tools pkg\tools\registry.go:56 > Registered core tool name=read_file
+13:09:11 DBG tools pkg\tools\registry.go:56 > Registered core tool name=write_file
+13:09:11 DBG tools pkg\tools\registry.go:56 > Registered core tool name=list_dir
+13:09:11 DBG tools pkg\tools\registry.go:56 > Registered core tool name=exec
+13:09:11 DBG tools pkg\tools\registry.go:56 > Registered core tool name=edit_file
+13:09:11 DBG tools pkg\tools\registry.go:56 > Registered core tool name=append_file
+13:09:11 INF agent pkg\agent\registry.go:38 > Created implicit main agent (no agents.list configured)
+13:09:11 DBG tools pkg\tools\registry.go:56 > Registered core tool name=web_search
+13:09:11 DBG tools pkg\tools\registry.go:56 > Registered core tool name=web_fetch
+13:09:11 DBG tools pkg\tools\registry.go:56 > Registered core tool name=message
+13:09:11 DBG tools pkg\tools\registry.go:56 > Registered core tool name=reaction
+13:09:11 DBG tools pkg\tools\registry.go:56 > Registered core tool name=send_file
+13:09:11 DBG tools pkg\tools\registry.go:56 > Registered core tool name=load_image
+13:09:11 DBG tools pkg\tools\registry.go:56 > Registered core tool name=find_skills
+13:09:11 DBG tools pkg\tools\registry.go:56 > Registered core tool name=install_skill
+13:09:11 DBG tools pkg\tools\registry.go:56 > Registered core tool name=spawn
+13:09:11 DBG tools pkg\tools\registry.go:56 > Registered core tool name=subagent
+
+馃摝 Agent Status:
+  鈥?Tools: 16 loaded
+  鈥?Skills: 7/7 available
+13:09:11 INF agent pkg\gateway\gateway.go:179 > Agent initialized skills_available=7 skills_total=7 tools_count=16
+13:09:11 DBG tools pkg\tools\registry.go:56 > Registered core tool name=cron
+鉁?Cron service started
+13:09:11 INF heartbeat pkg\heartbeat\service.go:100 > Heartbeat service started interval_minutes=30
+鉁?Heartbeat service started
+13:09:11 INF media pkg\media\store.go:322 > cleanup enabled interval=5m0s max_age=30m0s
+13:09:11 INF channels pkg\channels\manager.go:355 > Initializing channel manager
+13:09:11 DBG channels pkg\channels\manager.go:323 > Attempting to initialize channel channel=Pet
+13:09:11 WRN channels pkg\channels\base.go:121 > SECURITY: Channel allows EVERYONE (allow_from is empty) channel=pet hint="Set allow_from to your ID, or use '*' to explicitly acknowledge open access."
+13:09:11 INF pet pkg\channels\pet\channel.go:101 > pet: created PetChannel with config: {true 0.0.0.0 8080 [] [] }
+13:09:11 INF channels pkg\channels\manager.go:348 > Channel enabled successfully channel=Pet
+13:09:11 INF channels pkg\channels\manager.go:437 > Channel initialization completed enabled_channels=1
+鉁?Channels enabled: [pet]
+13:09:11 INF channels pkg\channels\manager.go:521 > Starting all channels
+13:09:11 INF channels pkg\channels\manager.go:529 > Starting channel channel=pet
+13:09:11 INF pet pkg\channels\pet\channel.go:141 > Pet channel started
+13:09:11 INF channels pkg\channels\manager.go:599 > Channel startup completed failed=0 started=1 total=1
+13:09:11 INF pet pkg\channels\pet\channel.go:133 > pet: starting WebSocket server at 0.0.0.0:8080
+13:09:11 INF voice pkg\gateway\gateway.go:92 > Channel voice capabilities asr=false channel=pet tts=false
+13:09:11 INF channels pkg\channels\manager.go:822 > Outbound media dispatcher started
+13:09:11 INF channels pkg\channels\manager.go:588 > Shared HTTP server listening addr=127.0.0.1:18790
+13:09:11 INF channels pkg\channels\manager.go:822 > Outbound dispatcher started
+鉁?Health endpoints available at http://127.0.0.1:18790/health, /ready and /reload (POST)
+13:09:11 INF devices pkg\devices\service.go:58 > Device event service disabled or no sources
+13:09:11 INF pet pkg\gateway\gateway.go:198 > Pet character hook registered
+鉁?Gateway started on 127.0.0.1:18790
+Press Ctrl+C to stop
+13:09:12 DBG heartbeat pkg\heartbeat\service.go:163 > Executing heartbeat
+13:09:12 INF heartbeat pkg\heartbeat\service.go:167 > No heartbeat prompt (HEARTBEAT.md empty or missing)
+13:09:13 INF pet pkg\channels\pet\channel.go:320 > pet: client connected, conn_id=1775884153111213900, session=go-claw
